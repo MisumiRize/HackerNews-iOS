@@ -1,9 +1,3 @@
 machine:
   xcode:
     version: "7.0"
-  environment:
-    XCODE_SCHEME: HackerNews
-
-test:
-  override:
-    - xcodebuild test -scheme HackerNews -destination 'name=iPhone 6'
